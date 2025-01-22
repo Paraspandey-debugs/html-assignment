@@ -4,8 +4,10 @@
   padding: 0;
 }
 .intro{
-  background: url(Hero.webp) no-repeat center;
-  background-image: url(Hero.webp);
+  background: url(AFP_36TQ7Z6.webp) no-repeat center;
+  background-image: url(AFP_36TQ7Z6.webp);
+  background: linear-gradient(to right, black, transparent), 
+                  url('AFP_36TQ7Z6.webp') no-repeat center / cover;
   background-position-x: center;
   background-position-y: center;
   background-size: initial;
