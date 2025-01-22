@@ -5,7 +5,7 @@
 }
 .intro{
   background: url(Hero.webp) no-repeat center;
-  background-image: url(Hero.webp );
+  background-image: url(Hero.webp);
   background-position-x: center;
   background-position-y: center;
   background-size: initial;
@@ -16,30 +16,38 @@
   background-color: initial;
   background-size: cover;
 }
+
 .intro-para{
   color:white;
   text-align: left;
 }
+
 .about{
   background: peachpuff;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .image{
   
   padding: 10px;
   text-align: left;
 }
+
 .aboutbtn{
   text-align: right;
 }
+
 .intro-text{
+  font-family: Arial, Helvetica, sans-serif;
   padding-left:50px;
   padding-top:40px;
-  margine:
+  padding-bottom:40px;
 }
 .intro-text-title{
-  font-size: 50px;
+  font-size: 100px;
   color:White;
+  padding-bottom:10px;
+  font-weight: bold;
 }
