@@ -68,3 +68,7 @@
   background-color: initial;
   background-size: cover;
 }
+.stay-text{
+  display:flex;
+  justify-content:center;
+}
