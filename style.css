@@ -53,3 +53,18 @@
   padding-bottom:10px;
   font-weight: bold;
 }
+.stay{
+  background: url(AFP_36TQ7Z6.webp) no-repeat center;
+  background-image: url(AFP_36TQ7Z6.webp);
+  background: linear-gradient(to right, black, transparent), 
+                  url('AFP_36TQ7Z6.webp') no-repeat center / cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: cover;
+}
