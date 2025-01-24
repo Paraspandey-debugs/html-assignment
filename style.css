@@ -234,6 +234,9 @@
 .link a{
   text-decoration: none;
 }
+.bx-chat{
+  color: aqua;
+}
 .events {
   background: #ff4500;
   width: 100%;
