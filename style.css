@@ -72,15 +72,49 @@
   font-weight: bold;
 }
 .stay { background: linear-gradient(to right, black, transparent), url('2021071382-1024x683.webp') no-repeat center / cover; background-size: cover; }
-.stay-text{
-  display:flex;
-  justify-content:center;
+.stay-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.box-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px; 
+  width: 40%; 
+  height: 50%;
+}
+.box-item-text{
+  flex-grow:1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+.box-item-text h3 {
+  color: #2d3436;
+  margin-bottom: 3px;
+  font-size: 1.5rem;
+  font-family: 'Cambria', serif;
+}
+
+.box-item-text p {
+  color: #636e72;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
 }
 .image2 {
+  
   background: url('pixelcut-export.webp') no-repeat center center;
   background-size: cover;
   height: 100vh; /* Adjust the height as needed */
   width: 100%; /* Ensure it covers the entire width */
+  
 }
 .calen {
    color: white;
