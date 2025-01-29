@@ -24,11 +24,16 @@
 }
 
 .about {
+  /* position: fixed; */
   background: peachpuff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 40px;
 }
+/* .navbar{
+  margin-top: 60px;
+} */
 
 .image {
   padding: 10px;
