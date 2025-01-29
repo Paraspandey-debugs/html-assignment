@@ -1,3 +1,7 @@
+body, html {
+  width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
 .body{
   margin: 0;
   padding: 0;
@@ -16,6 +20,7 @@
   background-clip: initial;
   background-color: initial;
   background-size: cover;
+  margin-top: 60px;
 }
 
 .intro-para{
@@ -24,16 +29,18 @@
 }
 
 .about {
-  /* position: fixed; */
+  position: fixed; /* Fixed position at the top */
+  top: 0;
+  width: 100%;
   background: peachpuff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 60px; /* Adjusted height to better fit content */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  padding: 10px 20px; /* Added padding for spacing */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
 }
-/* .navbar{
-  margin-top: 60px;
-} */
 
 .image {
   padding: 10px;
