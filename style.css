@@ -288,7 +288,47 @@ body, html {
 .events {
   background-image: linear-gradient(white, #4d8a9b);
   width: 100%;
-  
+  padding: 0.5%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+.events h1 {
+  font-size: 2.5rem;
+  color: rgb(125, 118, 146);
+  margin-bottom: 20px;
+}
+
+.events .gallary-container {
+  display: flex;
+  margin: 5%;
+  padding: 3%;
+  background-image: linear-gradient(white, white);
+  border-radius: 20px;
+  flex-direction: row;
+  gap: 20px; /* Space between text and video */
+  align-items: start; /* Align items at the top */
+}
+
+.events .text-content {
+  flex: 1; /* Takes up remaining space */
+  min-width: 300px; /* Minimum width for text */
+  font-size: 80%;
+}
+
+.events .gallary-item {
+  flex: 1; /* Equal width distribution */
+  max-width: 600px; /* Maximum video width */
+}
+
+.events .gallary-item video {
+  width: 100%; /* Fill container width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-bottom: 3px solid #4d8a9b;
 }
 
 .about {
@@ -366,6 +406,7 @@ body, html {
 .gallary-container {
   display: flex;
   margin:5%;
+  margin-bottom:0%;
   padding:3%;
   background-image:linear-gradient(white,white);
   border-radius:20px;
