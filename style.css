@@ -274,9 +274,9 @@
   color: aqua;
 }
 .events {
-  background-image: linear-gradient( white, #4d8a9b);
+  background-image: linear-gradient(white, #4d8a9b);
   width: 100%;
-  height: 500px;
+  
 }
 
 .about {
@@ -342,4 +342,34 @@
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+.gallary-container {
+  display: flex;
+  margin:5%;
+  padding:3%;
+  background-image:linear-gradient(white,white);
+  border-radius:20px;
+  flex-direction: row;
+  gap: 20px; /* Space between text and video */
+  align-items: start; /* Align items at the top */
+}
+
+/* Text container */
+.text-content {
+  flex: 1; /* Takes up remaining space */
+  min-width: 300px; /* Minimum width for text */
+  font-size:80%;
+}
+
+/* Video container */
+.gallary-item {
+  flex: 1; /* Equal width distribution */
+  max-width: 600px; /* Maximum video width */
+}
+
+.gallary-item video {
+  width: 100%; /* Fill container width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-bottom: 3px solid #4d8a9b;
 }
